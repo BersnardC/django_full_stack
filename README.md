@@ -14,3 +14,7 @@ Corriendo el server:
 Diseño:
  - Bootsrap
  - CoreUi Elements
+
+ Corriendo Cliente:
+  (Requisito unico: Servidor http -> http-server https://www.npmjs.com/package/http-server)
+  - cd dist/ $ http-server -o
