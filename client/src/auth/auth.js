@@ -54,6 +54,21 @@ export default {
         })
     })
   },
+  register ( dataUser ) {
+    return new Promise((resolve, reject) => {
+      axios.post(apiDomain + '/api-register-user/', dataUser, { headers: {
+        'Content-Type': 'application/json'
+      }})
+        .then((response) => {
+          console.log(response)
+          var data = ['success', 'Usuario registrado']
+          resolve(data)
+        })
+        .catch((error) => {
+          reject(error)
+        })
+    })
+  },
   getUser (user) {
     return new Promise((resolve, reject) => {
       axios.post(apiDomain + '/forgot_password/', {email: user}, { headers: {

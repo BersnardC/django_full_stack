@@ -3,6 +3,7 @@ import Router from 'vue-router'
 
 // Login
 import Login from '@/auth/Login'
+import Register from '@/auth/Register'
 import auth from '@/auth/auth'
 
 //Pages
@@ -19,7 +20,7 @@ const Charts = () => import('@/views/Charts')
 // Views - Pages
 const Page404 = () => import('@/views/pages/Page404')
 const Page500 = () => import('@/views/pages/Page500')
-const Register = () => import('@/views/pages/Register')
+
 Vue.use(Router)
 
 export default new Router({
