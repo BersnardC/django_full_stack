@@ -6,6 +6,7 @@ Full stack test
   - Cors
   - Django Rest Framework
   - SqlLite
+  - JWT
 
 Corriendo el server: 
  - python manage.py runserver 
