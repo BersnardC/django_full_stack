@@ -1,7 +1,7 @@
 # django_full_stack
 Full stack test
 
-#Servidor: Django
+## Servidor: Django
  Tools:
   - Cors
   - Django Rest Framework
@@ -10,7 +10,7 @@ Full stack test
 Corriendo el server: 
  - python manage.py runserver 
 
-#Cliente: Vuejs
+## Cliente: Vuejs
 Diseño:
  - Bootsrap
  - CoreUi Elements
