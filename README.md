@@ -1,5 +1,6 @@
 # django_full_stack
-Full stack test
+Full stack test 
+- Video demostración: https://youtu.be/BX6Z5N1UZO4
 
 ## Servidor: Django
  Tools:
